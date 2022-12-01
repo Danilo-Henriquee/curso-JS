@@ -1,3 +1,6 @@
+
+
+console.log(arroba)
 // Array literal
 const nomes = ['Danilo', 'Maria', 'Joana'];
 
