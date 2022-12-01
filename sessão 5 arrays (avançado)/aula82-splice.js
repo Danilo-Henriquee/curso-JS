@@ -14,4 +14,21 @@ const removidos = nomes.splice(2, 3)
     foram removidos.    
 */
 
-console.log(nomes, "|", removidos)
+// simulando os métodos com splice
+
+// unshift() - adiciona no começo 
+nomes.splice(0, 0, 'Bernardo')
+
+// shift() - remove no começo
+nomes.splice(0, 1)
+
+// push() - adiciona no final
+nomes.splice(nomes.length, 0, 'Henrique')
+
+// pop() - remove no final
+nomes.splice(-1, 1);
+
+
+
+
+
