@@ -43,3 +43,8 @@ const nome = 'Danilo Henrique Marques'
 // um novo indice a cada espaço encontrado
 const nomeArray = nome.split(' ')
 console.log(nomeArray)
+
+// para transformar um array em uma String
+const novoArray = nome.join(' ')
+// o argumento do parametro passado vai ser o caracter
+// que ira separar os indices do array
