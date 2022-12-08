@@ -15,6 +15,7 @@ const pares = numeros.reduce((acumulador, valor) => {
 
     return acumulador;
 }, []);
+console.log(pares)
 
  // retorne um array com o dobro dos valores
  const dobro = numeros.reduce((acumulador, valor) => {
