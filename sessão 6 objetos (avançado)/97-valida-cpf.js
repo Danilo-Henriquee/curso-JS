@@ -51,5 +51,3 @@ function validaCPF(cpf) {
     };
 }
 validaCPF('578.730.008.42');
-
-
