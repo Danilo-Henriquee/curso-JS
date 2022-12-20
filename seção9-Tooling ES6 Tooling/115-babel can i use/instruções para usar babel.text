@@ -1,0 +1,6 @@
+Primeiro inicia com - npm init -y
+
+Para instalar o babel - npm install @babel/cli @babel/preset-env @babel/core
+
+Para transferir o babel das dependecias para Devedependecies 
+npm install --save-dev @babel/cli @babel/preset-env @babel/core

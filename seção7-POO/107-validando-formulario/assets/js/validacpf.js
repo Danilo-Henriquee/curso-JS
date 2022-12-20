@@ -8,8 +8,6 @@ class ValidaCPF {
         })
     }
     éSequência() {
-        // se qualquer caracter se repetir no caso tipo 0 e depois 0
-        // é um sequência então vai retornar true.
         return this.cpfLimpo.charAt(0).repeat(this.cpfLimpo.length) === this.cpfLimpo;
     }
 
@@ -42,12 +40,4 @@ class ValidaCPF {
 
         return this.novoCPF === this.cpfLimpo;
     }
-}
-
-let validaCPF = new ValidaCPF('070.987.720-03')
-
-if (validaCPF.valida()) {
-    console.log('CPF Válido')
-} else {
-    console.log('CPF Inválido')
 }
