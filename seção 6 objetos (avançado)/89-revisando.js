@@ -44,7 +44,6 @@ function Pessoa(nome, sobrenome) {
 
     // Object.freeze(this);
 }
-
 // a palavra new primeiramente vai criar um objeto vazio {}
 // e vai atrela o this no corpo da função pessoa
 const p1 = new Pessoa('Danilo', 'Marques');
