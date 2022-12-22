@@ -16,6 +16,10 @@ module, então usando o this se consegue fazer exports também.
 */
 this.qualquerCoisa = 'O que eu quiser exportar';
 
+module.exports = {
+    nome, sobrenome
+};
+
 exports.nome = nome;
 exports.sobrenome = sobrenome;
 exports.falaNome = falaNome;
